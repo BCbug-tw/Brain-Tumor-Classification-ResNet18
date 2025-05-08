@@ -16,10 +16,9 @@ This project provides a brain tumor image classification model trained on ResNet
 
 ### 2. Launch Services
 
-
-'''cmd
+```
 docker-compose up --build
-'''
+```
 
 ### 3. Access the System
 
@@ -42,7 +41,7 @@ The dataset is provided by Masoud Nickparvar on Kaggle:[Brain Tumor MRI Dataset]
 The dataset was split into training, validation, and testing sets based on project needs. The distribution of the four categories across each set is shown below:
 | Training | Evalustion | Testing |
 |---------|---------|---------|
-| <img src="data/Training Set distribution.jpg" width="150"/> | <img src="data/Validation Set distribution.jpg" width="150"/> |<img src="data/Testing Set distribution.jpg" width="150"/>
+| <img src="data/Training Set distribution.jpg" width="250"/> | <img src="data/Validation Set distribution.jpg" width="250"/> |<img src="data/Testing Set distribution.jpg" width="250"/>
 
 ---
 
@@ -55,6 +54,13 @@ The model is evaluated on the test set using standard metrics including precisio
 
 #### Precisio, Recall & F1-score
 
+<div align="center">
+
+ Dice Score | Precision | Recall 
+ :------: | :------: | :------: 
+   0.7424   |   0.8401  | 0.8339
+
+</div>
 
 <div align="center">
  Classes   | precision  |  recall | f1-score
