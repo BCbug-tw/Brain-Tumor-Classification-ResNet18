@@ -12,7 +12,7 @@ This project provides a brain tumor image classification model trained on ResNet
 ## Quick Start 
 ### 1. Install Docker & Docker Compose
 
-- [X] Make sure you have Docker Desktop installed (with Compose support).
+Make sure you have [Docker Desktop](<https://docs.docker.com/get-started/get-docker/> "Title") installed (with Compose support).
 
 ### 2. Launch Services
 
@@ -22,7 +22,7 @@ docker-compose up --build
 
 ### 3. Access the System
 
-- Streamlit UI: http://localhost:8501
+Streamlit UI: http://localhost:8501
 
 ---
 
