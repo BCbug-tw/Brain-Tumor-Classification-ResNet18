@@ -33,9 +33,9 @@ The dataset is provided by Masoud Nickparvar on Kaggle:[Brain Tumor MRI Dataset]
 
 
 <div align="center">
-No Tumor|Glioma|Meningioma|Pituitary
-:------:|:------:|:------:|:------:
-405|300|306|300
+ No Tumor|Glioma|Meningioma|Pituitary
+ :------:|:------:|:------:|:------:
+ 405|300|306|300
 </div>
 
 ### Dataset for Training
@@ -57,12 +57,12 @@ The model is evaluated on the test set using standard metrics including precisio
 
 
 <div align="center">
-Classes   | precision  |  recall | f1-score
-:-------|:-------:|:-------:|:-------:
-No Tumor  |     1.00   |  1.00   |  1.00
-Glioma    |    0.99    |  0.98   |  0.99
-Meningioma|  0.98      |  0.98   |  0.98
-Pituitary |    0.99    |  0.99   |  0.99
+ Classes   | precision  |  recall | f1-score
+ :-------|:-------:|:-------:|:-------:
+ No Tumor  |     1.00   |  1.00   |  1.00
+ Glioma    |    0.99    |  0.98   |  0.99
+ Meningioma|  0.98      |  0.98   |  0.98
+ Pituitary |    0.99    |  0.99   |  0.99
 </div>
 
 #### Confusion Metrics
