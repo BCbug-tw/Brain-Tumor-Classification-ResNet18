@@ -51,14 +51,14 @@ The dataset was split into training, validation, and testing sets based on proje
 ### Architecture
 We use ResNet-18 as the backbone model and replace the final classification layer to fit the brain tumor classification task. The trained weights are saved in models/resnet_best.pth.
 
-### 測試結果與評估 
+### Evaluation 
 The model is evaluated on the test set using standard metrics including precision, recall, and F1-score. A confusion matrix is also used to visualize performance.
 
 #### Precisio, Recall & F1-score
 
 <div align="center">
 
- Classes   | precision  |  recall | f1-score
+ Categories   | precision  |  recall | f1-score
  :-------|:-------:|:-------:|:-------:
  No Tumor  |     1.00   |  1.00   |  1.00
  Glioma    |    0.99    |  0.98   |  0.99
