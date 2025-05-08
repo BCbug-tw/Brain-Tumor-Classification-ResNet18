@@ -72,10 +72,10 @@ The model is evaluated on the test set using standard metrics including precisio
 
 ---
 
-## 注意事項
+## Notes
 - If deploying in a public environment, please use HTTPS and authentication.
 
 - This model is for research purposes only and not for clinical medical use.
 
-## 聯絡作者
+## Contact
 If you have any questions or suggestions, feel free to submit an Issue or a Pull Request!
