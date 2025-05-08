@@ -35,15 +35,22 @@ The dataset is provided by Masoud Nickparvar on Kaggle:[Brain Tumor MRI Dataset]
 
  No Tumor|Glioma|Meningioma|Pituitary
  :------:|:------:|:------:|:------:
- 405|300|306|300
+ 2000|1621|1645|1757
 
 </div>
 
 ### Dataset for Training
 The dataset was split into training, validation, and testing sets based on project needs. The distribution of the four categories across each set is shown below:
-| Training | Evalustion | Testing |
-|---------|---------|---------|
-| <img src="data/Training Set distribution.jpg" width="250"/> | <img src="data/Validation Set distribution.jpg" width="250"/> |<img src="data/Testing Set distribution.jpg" width="250"/>
+<div align="center">
+
+ Categories   | Training  |  Validation | Testing
+ :-------|:-------:|:-------:|:-------:
+ No Tumor  |    1435    |  160   |  405
+ Glioma    |    1189    |  132   |  300
+ Meningioma|    1205    |  134   |  306
+ Pituitary |    1311    |  146   |  300
+
+</div>
 
 ---
 
