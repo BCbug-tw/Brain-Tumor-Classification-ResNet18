@@ -15,6 +15,8 @@ This project provides a brain tumor image classification model trained on ResNet
 - [X] Make sure you have Docker Desktop installed (with Compose support).
 
 ### 2. Launch Services
+
+
 '''cmd
 docker-compose up --build
 '''
@@ -28,6 +30,8 @@ docker-compose up --build
 ## Dataset
 ### Source
 The dataset is provided by Masoud Nickparvar on Kaggle:[Brain Tumor MRI Dataset](<https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset> "Title"). It includes four categories of brain MRI images: No Tumor, Glioma, Meningioma, and Pituitary. The image counts per category are:
+
+
 <div align="center">
 No Tumor|Glioma|Meningioma|Pituitary
 :------:|:------:|:------:|:------:
@@ -50,6 +54,8 @@ We use ResNet-18 as the backbone model and replace the final classification laye
 The model is evaluated on the test set using standard metrics including precision, recall, and F1-score. A confusion matrix is also used to visualize performance.
 
 #### Precisio, Recall & F1-score
+
+
 <div align="center">
 Classes   | precision  |  recall | f1-score
 :-------|:-------:|:-------:|:-------:
@@ -60,7 +66,7 @@ Pituitary |    0.99    |  0.99   |  0.99
 </div>
 
 #### Confusion Metrics
-![image1](results\confusion_matrix.jpg "confusion_matrix")
+![image1](results/confusion_matrix.jpg "confusion_matrix")
 
 ---
 
