@@ -74,7 +74,7 @@ The model is evaluated on the test set using standard metrics including precisio
 
 </div>
 
-#### Confusion Metrics
+#### Confusion Metrix
 ![image1](results/confusion_matrix.jpg "confusion_matrix")
 
 ---
