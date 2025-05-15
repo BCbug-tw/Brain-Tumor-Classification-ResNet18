@@ -16,4 +16,4 @@ if uploaded_files:
 
         st.success("Finish!")
         for file, pred in zip(uploaded_files, result["results"]):
-            st.image(file, caption=f"Prediction: {pred['prediction']}", use_column_width=True)
+            st.image(file, caption=f"Prediction: {pred['prediction']}", use_container_width =True)
